@@ -9,6 +9,7 @@ def graphql_cache_middleware(get_response):
         if request.path.startswith('/graphql') and request.body:
             data = json.loads(request.body.decode('utf8'))
             cache_key = data['query'].replace('\n', '').replace(' ', '').replace('\t', '')
+            print(cache_key)
 
             if response := cache.get(cache_key):
                 return HttpResponse(response, content_type='application/json')

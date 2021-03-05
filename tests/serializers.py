@@ -1,4 +1,4 @@
-from apps.problems.models import Problem, Category
+from .models import Problem, Category
 
 from rest_framework import serializers
 

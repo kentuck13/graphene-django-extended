@@ -1,0 +1,35 @@
+-
+    model: "tests.Category"
+    pk: 1
+    fields:
+      name: "Category 1"
+-
+    model: "tests.Category"
+    pk: 2
+    fields:
+      name: "Category 2"
+-
+    model: "tests.Category"
+    pk: 3
+    fields:
+      name: "Category 3"
+-
+    model: "tests.Category"
+    pk: 4
+    fields:
+      name: "Category 4"
+-
+    model: "tests.Category"
+    pk: 5
+    fields:
+      name: "Category 5"
+-
+    model: "tests.Category"
+    pk: 6
+    fields:
+      name: "Category 6"
+-
+    model: "tests.Category"
+    pk: 7
+    fields:
+      name: "Category 7"

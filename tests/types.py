@@ -1,7 +1,7 @@
 from graphene_django_extras import (
     DjangoListObjectType, DjangoObjectType, DjangoSerializerType
 )
-from apps.problems.models import Problem, Category
+from .models import Problem, Category
 from .serializers import ProblemSerializer
 import graphene
 

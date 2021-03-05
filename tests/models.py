@@ -8,5 +8,8 @@ class Category(models.Model):
 
 class Problem(models.Model):
     name = models.CharField(max_length=255)
-    category = models.ForeignKey(Category, on_delete=models.CASCADE,
-                                 related_name='problems')
+    category = models.ForeignKey(
+        Category,
+        on_delete=models.CASCADE,
+        related_name='problems'
+    )

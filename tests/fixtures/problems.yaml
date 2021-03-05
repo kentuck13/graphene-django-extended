@@ -1,0 +1,42 @@
+-
+    model: "tests.Problem"
+    pk: 1
+    fields:
+      name: "Problem 1"
+      category: 1
+-
+    model: "tests.Problem"
+    pk: 2
+    fields:
+      name: "Problem 2"
+      category: 2
+-
+    model: "tests.Problem"
+    pk: 3
+    fields:
+      name: "Problem 3"
+      category: 3
+-
+    model: "tests.Problem"
+    pk: 4
+    fields:
+      name: "Problem 4"
+      category: 4
+-
+    model: "tests.Problem"
+    pk: 5
+    fields:
+      name: "Problem 5"
+      category: 5
+-
+    model: "tests.Problem"
+    pk: 6
+    fields:
+      name: "Problem 6"
+      category: 6
+-
+    model: "tests.Problem"
+    pk: 6
+    fields:
+      name: "Problem 6"
+      category: 6

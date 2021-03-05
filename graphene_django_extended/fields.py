@@ -8,7 +8,6 @@ class _Items(graphene.ObjectType):
     total_count = graphene.Int()
 
     def resolve_total_count(parent, info):
-        print(parent)
         if isinstance(parent, QuerySet):
             return parent.count()
         return len(parent)
@@ -31,10 +30,6 @@ class DjangoObjectField(graphene.Field):
             *args,
             **kwargs
         )
-
-
-from graphene_django import DjangoListField
-from graphene_django.filter import DjangoFilterConnectionField
 
 
 class ListField(graphene.Field):

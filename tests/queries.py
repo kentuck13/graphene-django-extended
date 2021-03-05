@@ -1,12 +1,10 @@
 import graphene
-from graphene import relay
 from graphene_django.debug import DjangoDebug
-from graphene_django import DjangoListField, DjangoObjectType
-from .models import Problem
+from graphene_django import DjangoObjectType
 
-from .serializers import ProblemSerializer, CategorySerializer
 from .models import Category, Problem
-from apps.my_g.fields import ListField, DjangoObjectField
+from graphene_django_extended.fields import ListField, DjangoObjectField
+
 
 class CategoryType(DjangoObjectType):
     class Meta:

@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'graphene_django',
     'django_filters',
 
-    'apps.problems'
+    'tests'
 ]
 
 MIDDLEWARE = [
@@ -50,10 +50,10 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'apps.my_g.middleware.graphql_cache_middleware'
+    # 'graphene_django_extended.middleware.graphql_cache_middleware'
 ]
 
-ROOT_URLCONF = 'config.urls'
+ROOT_URLCONF = 'tests.urls'
 
 TEMPLATES = [
     {
@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'config.wsgi.application'
+WSGI_APPLICATION = 'tests.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
@@ -120,7 +120,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 GRAPHENE = {
-    "SCHEMA": "config.schema.schema",
+    "SCHEMA": "tests.schema.schema",
     'MIDDLEWARE': [
         'graphene_django.debug.DjangoDebugMiddleware',
     ]

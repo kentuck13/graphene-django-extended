@@ -1,5 +1,5 @@
 """
-ASGI config for graphql project.
+ASGI tests for graphql project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 

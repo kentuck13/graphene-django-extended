@@ -1,4 +1,4 @@
-# graphene-django-extended
+# graphene-django-extended (Beta)
 
 # Requirements
 
@@ -14,6 +14,11 @@ Install using `pip`...
 
     pip install graphene-django-extended
 
+## TODO
+
+- [ ] Support cache
+- [ ] Support throttling
+- [ ] Support Authorization through QuerySet .only(...)
 
 ## Contact
 
